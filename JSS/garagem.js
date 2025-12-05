@@ -1,7 +1,7 @@
 // ==================================================
 //      CONFIGURAÇÃO E ESTADO GLOBAL
 // ==================================================
-const backendUrl = 'https://vagnelson.netlify.app';
+const backendUrl = 'https://projetofinalvagnelson.onrender.com';
 let garagem = {};
 let previsaoProcessadaCompletaCache = null;
 let nomeCidadeCache = "";
@@ -812,3 +812,4 @@ function inicializarAplicacao() {
 
 
 document.addEventListener('DOMContentLoaded', inicializarAplicacao);
+
